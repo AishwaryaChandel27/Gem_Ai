@@ -2,7 +2,7 @@
 
 # gem_ai
 
-![Gemini AI Project](./path-to-your-image.png) <!-- Update this path to your actual image file -->
+![Gemini AI Project](https://github.com/AishwaryaChandel27/gem_ai/blob/main/Screenshot%202024-08-12%20203843.png) <!-- Update this path to your actual image file -->
 
 ## Overview
 
