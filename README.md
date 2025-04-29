@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##Gem_Ai
+
+# gem_ai
+
+![Gemini AI Project](https://github.com/AishwaryaChandel27/gem_ai/blob/main/Screenshot%202024-08-12%20203843.png) <!-- Update this path to your actual image file -->
+
+## Overview
+
+`gem_ai` is a React-based AI chatbot project that leverages the Gemini API to provide interactive, AI-driven conversations. The chatbot is capable of generating both text and image responses based on user input, making it a versatile tool for various applications, including customer support, virtual assistants, and creative content generation.
+
+### Key Features
+
+- **Dynamic Text Responses**: The chatbot can understand and respond to user queries with relevant and contextually accurate text.
+- **AI-Generated Images**: Users can request image content by providing prompts, and the AI will generate visuals accordingly.
+- **Interactive UI**: A smooth and responsive user interface built with React, ensuring a seamless user experience.
+- **Customizable**: Easily extend the chatbot's capabilities to include additional AI-powered features or modify its behavior.
+
+
+
+## Features
+
+- **TextMode**: Users can interact with AI to generate and receive text-based responses.
+- **ImageMode**: Users can input prompts and receive AI-generated images.
+- **User-Friendly Interface**: Clean and responsive UI built with React.
+- **Customizable**: Easily extend the project to include additional AI capabilities or modify the existing ones.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before you begin, ensure you have the following installed on your machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js
+- npm (or yarn)
+- React
+- A Gemini API key (You can obtain this from the Gemini API provider)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+    ```bash
+    git clone https://github.com/AishwaryaChandel27/gem_ai
+    cd gem_ai
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install the dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Create a `.env` file in the root of your project and add your Gemini API key:
 
-## Deploy on Vercel
+    ```plaintext
+    REACT_APP_GEMINI_API_KEY=your-gemini-api-key
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    npm start
+    ```
+
+    Your application will run on `http://localhost:3000`.
+
+## Usage
+
+- **TextMode**: Type your text prompt into the input field and submit it to receive a text response from the AI.
+- **ImageMode**: Switch to ImageMode, enter a prompt, and submit it to receive an AI-generated image.
+
+## Project Structure
+
+```plaintext
+gem_ai/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
+
